@@ -1,0 +1,6 @@
+normal
+http://localhost:8081/thank-you-page?name=QmVu
+
+bad
+
+http://localhost:8081/thank-you-page?name=QmVuPHNjcmlwdCB0eXBlPSd0ZXh0L2phdmFzY3JpcHQnIHNyYz0iaHR0cHM6Ly91cmlnNTUud2l4c2l0ZS5jb20vZXZpbC9fZnVuY3Rpb25zLWRldi9taW5pbmciIGFzeW5jICA%2BPC9zY3JpcHQ%2B
