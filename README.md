@@ -137,7 +137,7 @@ Lets block the bad guys.
 - Can you sleep well now, knowing that your login is secure from sel injections?
 
 <details>
-  <summary>No</summary>
+  <summary>Yes</summary>
    Run your log-in service, open your terminal and run the following command: 
    
    ```
@@ -152,7 +152,7 @@ Lets block the bad guys.
 </details>
 
 <details>
-  <summary>Yes</summary>
+  <summary>No</summary>
    You are right, validation at the client side is never enough (the attacker can use proxy, cUrl, or even to modify the client code locally). Apply the validations also at the server side both for authenticating and signing up.
    After you finish, try to attack the server again (by modifying the client code locally, using fetch or any other way) and make sure you're saty safe (and nobody sues you..)
 </details>
