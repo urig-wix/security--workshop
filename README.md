@@ -119,12 +119,16 @@ Sounds spooky, how much damage could you get? run your log-in server, enter to h
 # example of editing 
 UPDATE table SET password = something WHERE email = email;
 
-# example of editing 
+# example of droping table 
 DROP table user;
 ```
 <details>
   <summary>Hint 1</summary>
-   try name = "' or 1=1 --
+   Try the sign up method 
+</details>
+<details>
+  <summary>Hint 2</summary>
+   try sending something like password = `1'); COMMAND; --` 
 </details>
 
 #### Fix the issue from the client side
@@ -136,10 +140,12 @@ Lets block the bad guys.
   <summary>No</summary>
    Run your log-in service, open your terminal and run the following command: 
    
-   curl 'http://localhost:8082/signup' \
+   ```
+ curl 'http://localhost:8082/signup' \
   -H 'Content-Type: application/x-www-form-urlencoded' \
   --data-raw "email=bla@shtut.com&password=1'); DROP TABLE user; --" \
   --compressed
+ ```
    
 
    Now you can move to the "No" section, we won't tell anyone you opened the `Yes` one.
