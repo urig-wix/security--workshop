@@ -144,11 +144,9 @@ Lets block the bad guys.
 
    Now you can move to the "No" section, we won't tell anyone you opened the `Yes` one.
 </details>
-<details>
 
 <details>
   <summary>Yes</summary>
    You are right, validation at the client side is never enough (the attacker can use proxy, cUrl, or even to modify the client code locally). Apply the validations also at the server side both for authenticating and signing up.
    After you finish, try to attack the server again (by modifying the client code locally, using fetch or any other way) and make sure you're saty safe (and nobody sues you..)
 </details>
-<details>
