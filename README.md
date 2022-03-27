@@ -135,12 +135,12 @@ Lets block the bad guys.
 <details>
   <summary>No</summary>
    Run your log-in service, open your terminal and run the following command: 
-   ```
+   
    curl 'http://localhost:8082/signup' \
   -H 'Content-Type: application/x-www-form-urlencoded' \
   --data-raw "email=bla@shtut.com&password=1'); DROP TABLE user; --" \
   --compressed
-   ```
+   
 
    Now you can move to the "No" section, we won't tell anyone you opened the `Yes` one.
 </details>
