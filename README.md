@@ -126,7 +126,6 @@ DROP table user;
   <summary>Hint 1</summary>
    try name = "' or 1=1 --
 </details>
-<details>
 
 #### Fix the issue from the client side
 Lets block the bad guys. 
