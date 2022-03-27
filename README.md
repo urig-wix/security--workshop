@@ -133,7 +133,7 @@ Lets block the bad guys.
 - Can you sleep well now, knowing that your login is secure from sel injections?
 
 <details>
-  <summary>Yes</summary>
+  <summary>No</summary>
    Run your log-in service, open your terminal and run the following command: 
    ```
    curl 'http://localhost:8082/signup' \
